@@ -1,186 +1,751 @@
-
 <!DOCTYPE html>
-<html dir="ltr" lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>Movifly</title>
-		<meta name="description" content="young, wild & free" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="assets/favicon.png" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<meta property="og:title" content="Movifly" />
-		<meta property="og:description" content="young, wild & free" />
-		<meta property="og:image" content="assets/og-image.png" >
+    <!-- ============== scroll reveal cdn ================ -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <!-- ============== box icon cdn  ===================== -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-		<link rel="stylesheet" href="assets/style.css" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/style.css" />
-	</head>
-	<body style="background: #e4efe9">
-		<div class="imageWrapper" style="background: linear-gradient(rgba(54,59,61,0.8), rgba(54,59,61,0.8)), url('content/image/mari.jpg');">
-			<div class="headerBackground">
-				<div class="container">
-					<header>
-						<div class="logo">
-							<div class="appIconShadow">
-								<svg width="0" height="0">
-									<defs>
-										<clipPath id="shape">
-											<path id="shape" class="cls-1" d="M6181.23,233.709v-1.792c0-.5-0.02-1-0.02-1.523a24.257,24.257,0,0,0-.28-3.3,11.207,11.207,0,0,0-1.04-3.132,10.683,10.683,0,0,0-1.95-2.679,10.384,10.384,0,0,0-2.68-1.943,10.806,10.806,0,0,0-3.13-1.038,19.588,19.588,0,0,0-3.3-.285c-0.5-.017-1-0.017-1.52-0.017h-22.39c-0.51,0-1.01.017-1.53,0.017a24.041,24.041,0,0,0-3.3.285,11.009,11.009,0,0,0-3.13,1.038,10.491,10.491,0,0,0-4.62,4.622,10.893,10.893,0,0,0-1.04,3.132,19.2,19.2,0,0,0-.28,3.3c-0.02.5-.02,1-0.02,1.523v22.392c0,0.5.02,1,.02,1.524a24.257,24.257,0,0,0,.28,3.3,10.9,10.9,0,0,0,1.04,3.132,10.491,10.491,0,0,0,4.62,4.622,11.04,11.04,0,0,0,3.13,1.038,19.891,19.891,0,0,0,3.3.285c0.51,0.017,1.01.017,1.53,0.017h22.39c0.5,0,1-.017,1.52-0.017a24.221,24.221,0,0,0,3.3-.285,10.836,10.836,0,0,0,3.13-1.038,10.408,10.408,0,0,0,2.68-1.943,10.683,10.683,0,0,0,1.95-2.679,11.217,11.217,0,0,0,1.04-3.132,20.257,20.257,0,0,0,.28-3.3c0.02-.5.02-1,0.02-1.524v-20.6h0Z" transform="translate(-6131 -218)"/>
-										</clipPath>
-									</defs>
-								</svg>
-								<img class="headerIcon" src="content/image/06b1d00uh5wsjyfa2xgy.png" alt="">
-								<div class="divider"></div>
-							</div>
-							<p class="headerName">
-								<a href="index.html">Movifly</a>
-							</p>
-						</div>
-						<nav class="scroll">
-							<ul>
-							</ul>
-						</nav>
-					</header>
-<div class="iphonePreview">
-	<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 0 0" style="position: absolute;">
-		<clipPath id="screenMask" clipPathUnits="objectBoundingBox" transform="scale(0.00257, 0.00119)">
-			<path d="M6490.24,1234.36H6216.28c-2.57,0-10.55-.07-12.07-0.07a87.524,87.524,0,0,1-12-1.03,40.051,40.051,0,0,1-11.4-3.79,38.315,38.315,0,0,1-16.82-16.84,39.948,39.948,0,0,1-3.78-11.42,72.257,72.257,0,0,1-1.04-12.02c-0.06-1.83-.06-5.56-0.06-5.56V452.125h0s0.06-11.391.06-12.086a87.9,87.9,0,0,1,1.04-12.025,39.843,39.843,0,0,1,3.78-11.413,38.283,38.283,0,0,1,16.82-16.847,39.762,39.762,0,0,1,11.4-3.785,71.909,71.909,0,0,1,12-1.037c16.99-.567,36.32-0.061,34.51-0.061,5.02,0,6.5,3.439,6.63,6.962a35.611,35.611,0,0,0,1.2,8.156,21.326,21.326,0,0,0,19.18,15.592c2.28,0.192,6.78.355,6.78,0.355H6433.7s4.5-.059,6.79-0.251a21.348,21.348,0,0,0,19.18-15.591,35.582,35.582,0,0,0,1.19-8.154c0.13-3.523,1.61-6.962,6.64-6.962-1.81,0,17.52-.5,34.5.061a71.923,71.923,0,0,1,12.01,1.038,39.832,39.832,0,0,1,11.4,3.784,38.283,38.283,0,0,1,16.82,16.844,40.153,40.153,0,0,1,3.78,11.413,87.844,87.844,0,0,1,1.03,12.023c0,0.695.06,12.084,0.06,12.084h0V1183.64s0,3.72-.06,5.55a72.366,72.366,0,0,1-1.03,12.03,40.2,40.2,0,0,1-3.78,11.41,38.315,38.315,0,0,1-16.82,16.84,40.155,40.155,0,0,1-11.4,3.79,87.669,87.669,0,0,1-12.01,1.03c-1.52,0-9.5.07-12.07,0.07" transform="translate(-6159.12 -394.656)"/>
-		</clipPath>
-	</svg>
-	<div class="videoContainer hidden">
-		<!--<video class="screenvideo" autoplay="autoplay" controls="controls">
-		</video>-->
-	</div>
-	<img class="iphoneScreen" src="" alt="">
-</div>
-<div class="appInfo">
-	<div class="appIconShadow">
-		<svg width="0" height="0">
-			<defs>
-				<clipPath id="shape120">
-					<path id="shape" class="cls-1" d="M6821,495.533v-4.281c0-1.2-.04-2.4-0.04-3.642a57.7,57.7,0,0,0-.68-7.882,26.144,26.144,0,0,0-2.48-7.483,25.115,25.115,0,0,0-11.04-11.044,26.118,26.118,0,0,0-7.49-2.481,47.28,47.28,0,0,0-7.88-.68c-1.2-.04-2.4-0.04-3.64-0.04h-53.5c-1.2,0-2.4.04-3.64,0.04a57.813,57.813,0,0,0-7.88.68,26.323,26.323,0,0,0-7.49,2.481,25.115,25.115,0,0,0-11.04,11.044,26.144,26.144,0,0,0-2.48,7.483,47.313,47.313,0,0,0-.68,7.882c-0.04,1.2-.04,2.4-0.04,3.642v53.5c0,1.2.04,2.4,0.04,3.641a57.7,57.7,0,0,0,.68,7.883,26.137,26.137,0,0,0,2.48,7.482,25.115,25.115,0,0,0,11.04,11.044,26.261,26.261,0,0,0,7.49,2.481,47.28,47.28,0,0,0,7.88.68c1.2,0.04,2.4.04,3.64,0.04h53.5c1.2,0,2.4-.04,3.64-0.04a57.654,57.654,0,0,0,7.88-.68,26.057,26.057,0,0,0,7.49-2.481,25.115,25.115,0,0,0,11.04-11.044,26.137,26.137,0,0,0,2.48-7.482,47.316,47.316,0,0,0,.68-7.883c0.04-1.2.04-2.4,0.04-3.641V495.533h0Z" transform="translate(-6701 -458)" filter="url(#f1)"/>
-				</clipPath>
-			</defs>
-		</svg>
-		<img class="appIconLarge" src="content/image/06b1d00uh5wsjyfa2xgy.png" alt="Movifly">
-	</div>
-	<div class="appNamePriceContainer">
-		<h1 class="appName">Movifly</h1>
-		<h2 class="appPrice">young, wild &amp; free</h2>
-	</div>
+    <!-- ============== custom css file ==================  -->
+    <link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+
+    <title>Mods Store.</title>
+    <style>
+        /*
+    Global fonts 
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap');
+
+/*
+    Global variables
+*/
+:root{
+    /* colors  */
+    --primary-color : #E91E63;
+    --secondary-color : #eee;
+    --main-txt-color : #000;
+    --secondary-txt-color : #FD1AFD;
+    --btn-bg-color : #e91e63;
+    --btn-bg-hover-color : #673ab7;
+    --btn-txt-color : #fff;
+    --btn-bg-shadow: 2px 2px 6.7px rgba(0, 0, 0, 0.112),10px 10px 22px rgba(0, 0, 0, 0.22);
+    --hero-img-shadow:0.6px 0.6px 1.1px rgba(0, 0, 0, 0.073),2.8px 2.8px 4.5px rgba(0, 0, 0, 0.092),10.3px 10.3px 12.4px rgba(0, 0, 0, 0.105),30px 30px 25px rgba(0, 0, 0, 0.18);
+    --scroll-bar-color:#191920;
+    --scroll-hover-bar-color:#E91E63;
 
 
+    /* typography */
+    /* font family  */
+    --main-font-family: 'Poppins', sans-serif;
 
-	<div class="appDescriptionContainer">
-		<p class ="appDescription">
-			Que esperas?, descarga ahora
-		</p>
-	</div>
-	<div class="downloadButtonsContainer">
-		<a class="playStoreLink" href="https://github.com/jhanc97/demo/releases/download/v2.0/movifly.apk">
-			<img class="playStore" src="content/image/smart.webp" alt="Google Play">
-		</a>
-		<a class="appStoreLink" href="https://github.com/jhanc97/demo/releases/download/v2.0/movifly_Tv.apk">
-			<img class="appStore" src="content/image/tv.webp" alt="App Store">
-		</a>
+    /* font sizes  */
+    --fs-large:3rem; 
+    --fs-medium:1.8rem; 
+    --fs-regular:1.4; 
+
+    /* font weights  */
+    --fw-xlarge:900; 
+    --fw-large:700; 
+    --fw-medium:500; 
+    --fw-regular:400; 
+
+}.dark-theme{
+    /* colors  */
+    --secondary-color : #282C34;
+    --main-txt-color : #fff;
+    --btn-bg-shadow: 2px 2px 6.7px rgba(255, 255, 255, 0.112),10px 10px 22px rgba(255, 255, 255, 0.22);
+    --hero-img-shadow:0.6px 0.6px 1.1px rgba(255, 255, 255, 0.073),2.8px 2.8px 4.5px rgba(255, 255, 255, 0.092),10.3px 10.3px 12.4px rgba(255, 255, 255, 0.105),30px 30px 25px rgba(255, 255, 255, 0.18);
+}
+
+/*
+    Base 
+*/
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--secondary-color);
+    font-family: var(--main-font-family);
+    transition: all .75s ease-in-out;
+}
+
+/*
+    Resuse classes
+*/
+.section{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+
+.section-header{
+    font-size: var(--fs-large);
+    font-weight: var(--fw-large);
+    color: var(--main-txt-color);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-decoration-thickness: 10px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav li{
+    list-style-type: none;
+}
+.nav li a{
+    text-decoration: none;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: var(--btn-bg-color);
+    font-size: var(--fs-regular);
+    font-weight: var(--fw-large);
+    color: var(--btn-txt-color);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.btn i{
+    padding-left: 10px;
+}
+.btn:active{
+    transform: translateY(-5px) scale(1.05);
+    background-color: var(--btn-bg-hover-color);
+    box-shadow: var(--btn-bg-shadow);
+}
+/* =============================== */
+
+/* =============== home section =============== */
+.home-section{
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-nav{
+    width: 100%;
+    position: relative;
+}
+
+.header-nav-list{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    opacity: 0;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 1rem;
+    backdrop-filter: blur(5px);
+    z-index: 99;
+    overflow: hidden;
+    transition: all .5s cubic-bezier(0.55, 0.085, 0.68 , 0.53) 0.1s;
+}
+.header-nav-list.open{
+    height: 50vh;
+    width: 350px;
+    visibility: visible;
+    opacity: 1;
+}
+.header-nav-list li{
+    opacity: 0;
+    transform: translateX(500%);
+    transition: transform .75s ease-in-out;
+    transition-delay: 1s;
+}
+.header-nav-list li.open{
+    opacity: 1;
+    transform: translateX(0);
+}
+.nav-link{
+    font-size: var(--fs-medium);
+    font-weight: var(--fw-medium);
+    color: var(--main-txt-color);
+}
+.nav-link:hover,
+.nav-link.active{
+    color: var(--primary-color) !important;
+}
+
+/* =============== menu icon =============== */
+.menu-icon{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+    font-size: var(--fs-medium);
+    color: var(--main-txt-color);
+}
+
+/* hero */
+.home-section .hero{
+    height: 100%;
+    width: auto;
+    flex-direction: column;
+}
+.hero .hero-img{
+    height: 50%;
+    width: auto;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.hero-img img{
+    width: 70%;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.hero-img-bg{
+    content: "";
+    position: absolute;
+    height: 180px;
+    width: 280px;
+    background-color: #e91e63cc;
+    border-radius: 20px;
+    box-shadow: var(--hero-img-shadow);
+}
+
+.hero-content{
+    height: 35vh;
+    width: 100%;
+    padding: 20px 0;
+    flex-direction: column;
+    text-align: center;
+    color: var(--main-txt-color);
+    overflow: hidden;
+}
+
+.hero-content .header{
+    font-size: var(--fs-large);
+}
+.hero-content span{
+    color: var(--primary-color);
+}
+
+.social-icon-list,
+.footer-nav{
+    width: 300px;
+    font-size: var(--fs-medium);
+    color: var(--primary-color);
+}
+.social-icon-list li,
+.footer-nav li{
+    cursor: pointer;
+    transition: transform .5s ease-in-out;
+}
+
+.social-icon-list li:hover,
+.footer-nav li:hover{
+    transform: translateY(-5px) scale(1.5);
+}
+
+/* =============== projects section ===============  */
+.project-section{
+    height: auto;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.project{
+    height: auto;
+    width: 100%;
+    margin: 50px 0;
+    overflow: hidden;
+}
+
+.project .project-img{
+    height: 100%;
+    width: 60%;
+
+}
+
+.project-img img{
+    width: auto;
+    border-radius: 1.5rem;
+    margin: 0px 25px;
+}
+
+.project .project-content{
+    min-height: 30vh;
+    width: 50%;
+    padding-inline:50px ;
+    flex-direction: column;
+    align-items: flex-start;
+    color: var(--main-txt-color);
+}
+
+.project-content .btn-group button{
+    margin-right: 20px;
+}
+/* =============== about section ===============  */
+.about-section{
+    height: auto;
+    width: 100%;
+}
+
+.about-content{
+    height: 90%;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.about-section .about-img{
+    height: 100%;
+    width: 50%;
+}
+
+.about-img img{
+    width: 80%;
+}
+
+.about-content .about-info{
+    height: 100%;
+    width: 50%;
+    color: var(--main-txt-color);
+}
+
+.about-info h1{
+    font-size: var(--fs-medium);
+}
+
+.about-info p{
+    font-size: var(--fs-regular);
+}
+/* =============== contact section ===============  */
+.contact-section{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+}
+.contact-section form {
+    padding-top: 20px;
+}
+
+.contact-section form,
+form .contact-group{
+    flex-direction: column;
+}
+
+.contact-group{
+    height: auto;
+    width: 100%;
+}
+
+.contact-group input,
+textarea{
+    width: 350px;
+    margin: 10px 0;
+    padding: 1rem 1.2rem;
+    border-radius: .5rem;
+    background-color: rgba(238,220,238,0.6);
+    color: #000;
+    font-family: var(--main-font-family);
+    font-size: var(--fs-regular);
+    font-weight: var(--fw-medium);
+}
+
+.contact-group input::placeholder,
+textarea::placeholder{
+    font-size: var(--fs-regular);
+}
+
+textarea{
+    height: 11rem;
+}
+
+.submit-btn{
+    margin: 20px;
+}
+/* =============== footer section ===============  */
+.footer-section{
+    background-color: var(--primary-color);
+    color: #fff;
+    overflow: hidden;
+}
+
+.footer-nav li{
+    color: #fff;
+}
+
+/* =============== scroll bar style =============== */
+::-webkit-scrollbar{
+    height: 10px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-bar-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--scroll-hover-bar-color);
+}
+/* =============== scroll top icon =============== */
+.scroll-top-icon{
+    visibility: hidden;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    font-size: var(--fs-large);
+    color: var(--primary-color);
+    cursor: pointer;
+    z-index: 9999;
+}
+.show-scroll{
+    visibility: visible;
+}
+/* =============== mode change icon ===============  */
+.mode-change-icon{
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    font-size: var(--fs-medium);
+    color: var(--main-txt-color);
+}
+
+/* responsive design  */
+@media (max-width:768px) {
+    :root{
+        /* font sizes  */
+        --fs-large:2rem; 
+        --fs-medium:1.5rem; 
+        --fs-regular: 1rem; 
+    }
+
+    /* =============== reuse classes =============== */
+    .section{
+        padding: 0 0px;
+    }
+
+    /* =============== home page ===============  */
+    .header-nav-list{
+        top: 50px;
+    }
+
+    .hero .hero-img{
+        height: 300px;
+    }
 
 
-		<!--<div class="appDescriptionContainer">
-			<p class ="appDescription" style="color: coral;">
-				Version anterior
-			</p>
-		</div>
 
 
-		<a class="playStoreLink" href="https://github.com/jhanc97/demo/blob/main/movifly-version-anterior.apk?raw=true">
-			<img class="playStore" src="content/image/smart1.webp" alt="movifly-movil">
-		</a>
-		<a class="appStoreLink" href="https://github.com/jhanc97/demo/blob/main/movifly_Tv_version_anterior.apk?raw=true">
-			<img class="appStore" src="content/image/tv1.webp" alt="movifly-tv">
-		</a>-->
-	</div>
+    /* =============== project section =============== */
+    .project{
+        flex-direction: column;
+    }
 
-</div>
-<div class="features">
-	<div class="feature">
-		<div>
-			<span class="fa-stack fa-1x">
-				<i class="iconBack fas fa-circle fa-stack-2x"></i>
-				<i class="iconTop fas fa-magic fa-stack-1x"></i>
-			</span>
-		</div>
-		<div class="featureText">
-			<h3>UIX Design</h3>
-			<p>Un diseño hermoso que te capturara desde el primer momento</p>
-		</div>
-	</div>
-	<div class="feature">
-		<div>
-			<span class="fa-stack fa-1x">
-				<i class="iconBack fas fa-circle fa-stack-2x"></i>
-				<i class="iconTop fas fa-volume-up fa-stack-1x"></i>
-			</span>
-		</div>
-		<div class="featureText">
-			<h3>Reproductor integrado</h3>
-			<p>No es necesario descargar reproductores externos, ya que movifly cuenta con uno propio</p>
-		</div>
-	</div>
-	<div class="feature">
-		<div>
-			<span class="fa-stack fa-1x">
-				<i class="iconBack fas fa-circle fa-stack-2x"></i>
-				<i class="iconTop fas fa-flag fa-stack-1x"></i>
-			</span>
-		</div>
-		<div class="featureText">
-			<h3>Filtrar contenido</h3>
-			<p>Con movifly puedes filtrar todo el contenidos por categorias</p>
-		</div>
-	</div>
-	<div class="feature">
-		<div>
-			<span class="fa-stack fa-1x">
-				<i class="iconBack fas fa-circle fa-stack-2x"></i>
-				<i class="iconTop fas fa-magic fa-stack-1x"></i>
-			</span>
-		</div>
-		<div class="featureText">
-			<h3>Tus peliculas y series favoritas en un solo lugar</h3>
-			<p>En movifly encontraras tus peliculas y series favoritas</p>
-		</div>
-	</div>
-</div>
-					<footer>
-						<p class="footerText">
-							<script>document.write('&copy;' + (new Date()).getFullYear());</script><noscript>&copy;2022</noscript> All rights reserved.
-						</p>
-						<div class="footerIcons">
-							<a href="https://t.me/+iw7PlQBse_1jMzhh">
-								<span class="fa-stack fa-1x">
-									<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-									<i class="socialIconTop fab fa-telegram fa-stack-1x"></i>
-								</span>
-							</a>
-							<a href="https://www.instagram.com/jhanc_velasquez/">
-								<span class="fa-stack fa-1x">
-									<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-									<i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
-								</span>
-							</a>
-							<a href="https://www.youtube.com/channel/UCLOmkq_UwjTXYoi2EECp1Ig">
-								<span class="fa-stack fa-1x">
-									<i class="socialIconBack fas fa-circle fa-stack-2x"></i>
-									<i class="socialIconTop fab fa-youtube fa-stack-1x"></i>
-								</span>
-							</a>
-						</div>
-						<div class="footerLinks">
-						</div>
-					</footer>
-				</div>
-			</div>
-		</div>
-	</body>
+    .project .project-img{
+        height: 50%;
+        width: 100%;
+    }
+
+    .project-img img{
+        height: 100%;
+    }
+
+    .project .project-content{
+        min-height: 45vh;
+        width: 100%;
+        padding-inline: 20px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .project-content .btn-group button{
+        margin-right: 10px;
+    }
+
+    /* about section  */
+    .about-section .about-img{
+        height: 50%;
+        width: 100%;
+    }
+    .about-content{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content .about-info{
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    /* foooter section  */
+    .footer-section{
+        padding: 10px;
+        background-color: var(--primary-color);
+        color: #fff;
+        flex-direction: column;
+    }
+
+}
+    </style>
+</head>
+<body>
+    <!-- =============== home page ==================  -->
+    <div class="home-section section flex " id="home">
+        <!-- navigation menu  -->
+        <div class="header-nav">
+            <!-- mode change icon  -->
+            <div class="mode-change-icon">
+                <i class="bx bx-moon" id="mode-change-icon"></i>
+            </div>
+
+            <!-- menu icon  -->
+            <div class="menu-icon">
+                <i class='bx bx-grid-alt' id="menu-icon"></i>
+            </div>
+
+            <!-- nav list  -->
+            <ul class="header-nav-list nav flex" id="header-nav-list">
+                <li>
+                    <a href="#home" class="nav-link active">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects" class="nav-link">
+                        Projects
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+
+        <!-- hero section  -->
+        <div class="hero flex">
+            <div class="hero-img flex">
+                <img src="images
+/imagen_2023-05-08_162417719.png" class="profile-pic" alt="">
+                <span class="hero-img-bg"></span>
+            </div>
+            <!-- hero content  -->
+            <div class="hero-content flex">
+                <h1 class="header">
+                    I'm 
+                    <span>
+                        Alan
+                    </span>
+                </h1>
+                
+                <h2 class="sub-header">
+                    creator of the
+                    <span>
+                        Mods Store
+                    </span>
+                </h2>
+    
+                <button onclick="location.href='https://t.me/blackmod1221'" class="btn hero-btn">
+                    Telegram
+                    <i class="bi bi-telegram"></i>
+                </button>
+            </div>
+    
+            <!-- social icon list  -->
+            <div class="social-icon-list">
+                <ul class="nav flex">
+                    <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                        <i class="bx bxl-facebook-circle"></i>
+                    </li>
+                    <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                        <i class="bx bxl-instagram-alt"></i>
+                    </li>
+                    <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                        <i class="bx bxl-twitter"></i>
+                    </li>
+                    <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                        <i class="bx bxl-youtube"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="scroll-top-icon" id="scroll-up">
+                <i class="bx bxs-chevron-up-circle" id="scroll-top-icon"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- =============== projects section ============ -->
+    <div class="project-section section" id="projects">
+        <h1 class="section-header">
+            Projects
+        </h1>
+
+        <div class="project project-1 flex">
+            <div class="project-img">
+                <img src="images
+/imagen_2023-05-08_162417719.png" alt="">
+            </div>
+
+            <div class="project-content flex">
+                <h1 class="project-header">
+                    Mods Store
+                </h1>
+
+                <p class="project-description">
+                    All modded apks in one app
+                </p>
+
+                <div style="margin-top:12px;" class="btn-group">
+                    <button onclick="location.href=''" class="btn hero-btn">
+                    Download
+                    <i class="bi bi-cloud-download"></i>
+                </button>
+                </div>
+            </div>
+        </div>
+    <!-- =============== footer section =============  -->
+    <div class="footer-section section flex">
+        <div class="footer-header">
+            <h1>
+                Alan
+            </h1>
+        </div>
+
+        <div class="footer-nav">
+            <ul class="nav flex">
+                <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                    <i class="bx bxl-facebook-circle"></i>
+                </li>
+                <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                    <i class="bx bxl-instagram-alt"></i>
+                </li>
+                <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                    <i class="bx bxl-twitter"></i>
+                </li>
+                <li onclick="location.href='https://t.me/blackmod1221'" class="social-icon">
+                    <i class="bx bxl-youtube"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- =============== custom js file  ============= -->
+    <script src="dist/script.js"></script>
+    <script>
+        // menu show and hide toggle 
+const menuIcon = document.getElementById("menu-icon");
+const headerNav = document.getElementById("header-nav-list");
+const headerNavItems = document.querySelectorAll('.header-nav-list li')
+
+menuIcon.addEventListener("click", () => {
+    headerNav.classList.toggle("open");
+    if(menuIcon.classList.contains("bx-grid-alt")){
+        menuIcon.className = "bx bx-chevrons-right";
+        headerNavItems.forEach((item,index) => {
+            item.classList.toggle("open");
+            item.style.transitionDelay = `${index * 0.5}s`;
+        })
+    }else{
+        menuIcon.className = "bx bx-grid-alt";
+        headerNavItems.forEach((item,index) => {
+            item.classList.toggle("open");
+            item.style.transitionDelay = "0s";
+        })
+    }
+})
+
+// show scroll icon 
+const scrollTopIcon = document.getElementById('scroll-top-icon');
+
+const scrollUp = () => {
+    const scrollUp = document.getElementById('scroll-up');
+    this.scrollY >= 350? scrollUp.classList.add('show-scroll') : scrollUp.classList.remove('show-scroll');
+}
+
+window.addEventListener('scroll',scrollUp)
+// scroll to top 
+scrollTopIcon.addEventListener("click", () => {
+    const scrollToTop = () => {
+        if(window.pageYOffset > 0) {
+            window.scroll(0 , window.pageYOffset - 50);
+            requestAnimationFrame(scrollToTop);
+        }
+    };
+    scrollToTop();
+})
+
+//scroll reveal animation 
+// scroller reveal 
+animateElement = (element,origin,delay,distance) => {
+    // Initialize ScrollReveal with options
+    const sr = ScrollReveal({
+        delay: delay,
+        distance: distance,
+        duration: 1000,
+        easing: 'ease',
+        origin: origin
+    });
+  
+    // Reveal the element
+    sr.reveal(element);
+}
+
+// section header 
+animateElement('.section-header','left',500,'250px');
+// hero section 
+animateElement('.hero-img','top',500,'250px');
+animateElement('.hero-content','bottom',500,'100px');
+animateElement('.social-icon-list','right',700,'250px');
+// project section 
+animateElement('.project-1','left',700,'250px');
+animateElement('.project-2','right',900,'250px');
+// about section 
+animateElement('.about-img','left',700,'250px');
+animateElement('.about-info','right',900,'250px');
+// contact section 
+animateElement('.contact-form','right',700,'250px');
+
+// footer section 
+animateElement('.footer-section','bottom',500,'250px');
+
+// light and dark mode toggle 
+const modeChangeIcon = document.getElementById("mode-change-icon");
+
+modeChangeIcon.addEventListener("click", () => {
+    if(modeChangeIcon.classList.contains("bx-moon")){
+        modeChangeIcon.classList.remove("bx-moon");
+        modeChangeIcon.classList.add("bx-sun");
+        
+        // toggle light and dark mode 
+        document.body.classList.toggle('dark-theme');
+    }else{
+        modeChangeIcon.classList.remove("bx-sun");
+        modeChangeIcon.classList.add("bx-moon");
+        // toggle light and dark mode 
+        document.body.classList.toggle('dark-theme');
+    }
+})
+    </script>
+</body>
 </html>
